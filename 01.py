@@ -18,7 +18,7 @@ tasks = [
 @app.route('/', methods=['GET'])
 def get_tasks():
     #return jsonify({'tasks': tasks})
-    return "Hello World!, miha i mario se igraju"
+    return "Hello World! Darko, Damir i Miha"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
